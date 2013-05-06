@@ -8,6 +8,14 @@
 //          -------------
 //          Javascript Code
 
+
+//HOW TO USE - DETAILED:
+// COPY THE CODE YOU WANT, For Example - "javascript:if ("/strobe on" == a) {log(Models.user.data.username + ' hit the strobe light!'); return RoomUser.audience.strobeMode(true), !0;};"
+// OPEN A BOOKMARK IN CHROME
+// PASTE THAT CODE INTO THE URL SECTION
+// CLICK IT WHILE INSIDE THE PLUG.DJ WINDOW
+// Type /strobe on Or /lights down or whatever it says you have to do!
+
 //Activate Strobe Lights
 javascript:if ("/strobe on" == a) {log(Models.user.data.username + ' hit the strobe light!'); return RoomUser.audience.strobeMode(true), !0;};
 //Disable Strobe Lights
