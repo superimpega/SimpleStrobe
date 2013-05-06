@@ -16,6 +16,14 @@
 // CLICK IT WHILE INSIDE THE PLUG.DJ WINDOW
 // Type /strobe on Or /lights down or whatever it says you have to do!
 
+//Picture Tutorial:
+//1. http://gyazo.com/f112e2d0a040a845de4177fcc6055d10
+//2. http://gyazo.com/7f3181660acbe49ded1323b3ed93bc3f
+//3. Example: http://gyazo.com/522694bd257d47e08cfd6acea0a7cac7
+//4. http://gyazo.com/99a1a516f823322e3c281946404a67db Click Inside Plug.DJ
+//5. http://gyazo.com/c63af88f64afea59490a10ef24eebdab Type the command
+//6. http://gyazo.com/9dfc5531f185f50b09e23452ad732499 Enjoy!
+
 //Activate Strobe Lights
 javascript:if ("/strobe on" == a) {log(Models.user.data.username + ' hit the strobe light!'); return RoomUser.audience.strobeMode(true), !0;};
 //Disable Strobe Lights
