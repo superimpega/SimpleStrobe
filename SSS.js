@@ -4,6 +4,9 @@
 //Copy The line you want into your Bookmarks bar
 // NOT ALL OF THEM.
 // Seperately Copy each of these lines.
+// Syntax:   What It Does
+//          -------------
+//          Javascript Code
 
 //Activate Strobe Lights
 javascript:if ("/strobe on" == a) {log(Models.user.data.username + ' hit the strobe light!'); return RoomUser.audience.strobeMode(true), !0;};
